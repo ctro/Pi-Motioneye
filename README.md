@@ -42,6 +42,9 @@ I have a Foscam IPcam that works as a "Simple JPEG camera" if I add `/video.cgi`
 
 I can still point the Foscam around if I go to it directly.
 
+OOH, or add it as a network camera with this URL
+`http://192.168.x.x80/videostream.cgi?user=admin&pwd=`
+
 ## Troubleshoot
 
 `vcgencmd get_camera` to see if Pi knows about camera
