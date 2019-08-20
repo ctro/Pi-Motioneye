@@ -36,6 +36,12 @@ pip install motioneye --upgrade
 systemctl restart motioneye
 ```
 
+## Other cameras
+
+I have a Foscam IPcam that works as a "Simple JPEG camera" if I add `/video.cgi` to the end of the url.
+
+I can still point the Foscam around if I go to it directly.
+
 ## Troubleshoot
 
 `vcgencmd get_camera` to see if Pi knows about camera
